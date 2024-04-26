@@ -4,81 +4,100 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    <link rel="stylesheet" href="/landing-page-ShinaNayna/styles/index.css">
-  </head>
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f7446ae765.js" crossorigin="anonymous"></script>
+</head>
   <body>
     <header>
-        <img src="/landing-page-ShinaNayna/images/logo.svg" alt="logo">
-        <ul>
+        <img src="/images/logo.svg" alt="logo" class="logo1">
+        <ul class="h-ul">
           <li>Features</li>
           <li>Team</li>
           <li>Sign In</li>
         </ul>
     </header>
     <main>
-      <section>
-        <h2>All your files in one secure location, accessible anywhere.</h2>
-        <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
-        <form action="">
-          <input type="email">
-          <input type="submit" value="Get Started">
-          <img src="/landing-page-ShinaNayna/images/illustration-1.svg" alt="illustration1">
-        </form>
+      <section class="main-sec1">
+        <div class="text-container">
+          <h2 class="main-sec1-h2">All your files in one secure location, accessible anywhere.</h2>
+          <p class="main-sec1-p">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+          <form action="" class="form-1">
+            <input type="email" placeholder="Enter your email" class="email-1">
+            <input type="submit" value="Get Started" class="button-1">
+          </form>
+        </div>       
+        <img id="illu-1" src="/images/illustration-1.svg" alt="illustration1">
       </section>
-      <section>
-        <img src="/landing-page-ShinaNayna/images/bg-curve-desktop.svg" alt="curve">
-        <img src="/landing-page-ShinaNayna/images/illustration-2.svg" alt="illustration-2">
-        <h2>Stay productive, wherever you are</h2>
-        <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
-        <p>Securely share files and folders with friends, family and colleagues for livre collaboration. No email required!</p>
-        <div>
-          <a href="">See how Fylo works</a>
-          <img src="/landing-page-ShinaNayna/images/icon-arrow.svg" alt="arrow">
+
+      <section class="main-sec2">
+        <div id="images-container">
+          <img src="/images/bg-curve-mobile.svg" alt="curve" class="curve">
+          <img src="/images/illustration-2.svg" alt="illustration-2" class="illustration-2">
         </div>
-        <article>
-          <img src="/landing-page-ShinaNayna/images/icon-quotes.svg" alt="quotes">
-          <p>Fylo has improved our team productivity by an order of magnitude. Since making switch our team has become a well-oiled collaboration machine.</p>
-          <div>
-            <img src="/landing-page-ShinaNayna/images/avatar-testimonial.jpg" alt="avatar">
-            <h3>Kyle Burton</h3>
-            <p>Founder & CEO, Huddle</p>
-          </div> 
-        </article>  
+        <div>
+          <h2 class="main-sec1-h2">Stay productive, wherever you are</h2>
+          <p class="main-sec1-p">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+          <p class="main-sec1-p">Securely share files and folders with friends, family and colleagues for livre collaboration. No email required!</p>
+          <div class="fylo-link">
+            <a href="">See how Fylo works</a>
+            <img src="/images/icon-arrow.svg" alt="arrow">
+          </div>
+            <article class="article-1">
+              <img src="/images/icon-quotes.svg" alt="quotes">
+              <p class="citation">Fylo has improved our team productivity by an order of magnitude. Since making switch our team has become a well-oiled collaboration machine.</p>
+              <div class="profile-container">
+                <img src="/images/avatar-testimonial.jpg" alt="avatar" class="avatar">
+                <div>
+                  <h3>Kyle Burton</h3>
+                  <p>Founder & CEO, Huddle</p>
+                </div>
+              </div> 
+            </article>  
+        </div>
       </section>
-      <section>
-        <h2>Get early access today</h2>
-        <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
-        <form action="">
-          <input type="email">
-          <input type="submit" value="Get Started For Free">
+      <section class="main-sec3">
+        <div class="main-sec3-div">
+          <h2>Get early access today</h2>
+          <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+        </div>
+        
+        <form action="" class="form-2">
+          <input type="email" placeholder="email@exemple.com" class="email-2" >
+          <input type="submit" value="Get Started For Free" class="button-2">
         </form>
-      </section>
+    </section>
       <footer>
-        <img src="/landing-page-ShinaNayna/images/logo.svg" alt="logo">
-        <ul>
-          <li>
-            <img src="/landing-page-ShinaNayna/images/icon-phone.svg" alt="phone">
-            <p>Phone: +1-543-123-4567</p>
-          </li>
-          <li>
-            <img src="/landing-page-ShinaNayna/images/icon-email.svg" alt="email">
-            <p>example@yahoo.com</p>
-          </li>
-        </ul>
-        <ul>
-          <li>About Us</li>
-          <li>Jobs</li>
-          <li>Press</li>
-        </ul>
-        <ul>
-          <li>Contact Us
-            <img src="" alt="facebook">
-            <img src="" alt="twitter">
-            <img src="" alt="Instagram">
-          </li>
-          <li>Terms</li>
-          <li>Privacy</li>
-        </ul>
+        <img src="/images/logo.svg" alt="logo">
+        <section class="section-4">
+          <ul>
+            <li class="contact">
+              <img src="/images/icon-phone.svg" alt="phone">
+              <p>Phone: +1-543-123-4567</p>
+            </li>
+            <li class="contact">
+              <img src="/images/icon-email.svg" alt="email">
+              <p>example@yahoo.com</p>
+            </li>
+          </ul>
+          <ul class="about">
+            <li>About Us</li>
+            <li>Jobs</li>
+            <li>Press</li>
+          </ul>
+          <ul class="about">
+            <li>Contact Us</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+          </ul>
+          <div class="icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          </div>
+      </section>
       </footer>
     </main>
   </body>

@@ -2,4 +2,238 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
+@media only screen and (min-width: 500px){
+    body{
+        width: 100%; 
+    } 
+    .main-sec1{
+        display: flex;
+        flex-direction: row;  
+        align-items: center;
+    }  
+    .main-sec2{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap:25px;
+    }
+    .main-sec3{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+    }
+    .section-4{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main-sec3-div{
+        width: 40%;
+        height: auto;
+    }
+    .form-1{
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        justify-content: center;
+        gap:10px;
+        margin: 20px;
+    
+        height: 80px;
+    .email-1{
+        width: 50%;
+        height: 25%;
+    }  
+    .button-1{
+        width: 40%;
+        height: 30%;
+    }  
+    }
+    .main-sec1-p{
+        margin: 6px;
+        padding: 4px;
+    }
+    .form-2{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: center;
+        gap:10px;
+        margin: 20px;
+        .email-2{
+            padding: 2%;
+            height: 50%;
+        }  
+        .button-2{
+            height: auto;
+            width: 50%;
+            font-size: 8px;
+        }
+    }
+}
+@media only screen and (max-width: 500px){
+   
+    .main-sec1{
+        display: flex;
+        flex-direction: column-reverse;  
+        align-items: center;
+        width: 90%;
+    }  
+    .main-sec2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap:25px;
+        width: 95%;
+    }
+    .main-sec3{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        gap:10px;
+    }
+    .main-sec3-div{
+        width: 90%;
+    }
+    .section-4{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .form-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        gap:8px;
+    }
+    .form-2{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: center;
+        gap:10px;
+        margin: 20px;
+        .email-2{
+            width: 80%;
+            height: 80%;
+            padding: 2%;
+        }  
+        .button-2{
+            height: auto;
+            width: 80%;
+            font-size: 8px;
+        }
+    }
+}
+body{
+margin: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+font-family: "Open Sans", sans-serif;
+}
+header{
+    display: grid;
+    grid-template-columns: 35% auto;
+    font-family: "Raleway", sans-serif;
+}
+.logo1{
+    width: 35%;
+    height: auto;
+}
+header .h-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#illu-1{
+    width: auto;
+    max-width: 50%;
+}
+.main-sec1-h2{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+.email-1{
+    width: 60%;
+}
+.button-1,.button-2{
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    padding: 7px;
+    text-align: center;
+}
+
+.main-sec2{
+    background-color: hsl(240, 75%, 98%);
+}
+.fylo-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.curve,.illustration-2{
+    width: 400px;
+}
+.article-1{
+    border-radius: 8px;
+    box-shadow: 10px black;
+    background-color: white;
+    width: 75%;
+    margin: 50px;
+    padding: 10px;
+}
+.citation{
+    margin: 20px;
+}
+a{
+    color: green; text-decoration: none; border-bottom: solid 1px green ;
+    margin: 10px;
+}
+.profile-container{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+}
+.avatar{
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+.main-sec3{
+    background-color:hsl(238, 22%, 44%);
+    color: white;
+    padding: 50px;
+    
+   
+}
+footer{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding: 50px;
+}
+.contact{
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 20px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
